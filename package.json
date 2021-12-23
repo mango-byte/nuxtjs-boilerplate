@@ -43,7 +43,7 @@
     "vue-waiting": "^0.0.4",
     "vuetify": "^2.6.1",
     "vuetify-dialogue": "^0.0.7",
-    "webpack": "^4.46.0"
+    "webpack": "^5.65.0"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.3",
