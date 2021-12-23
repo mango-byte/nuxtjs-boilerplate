@@ -12184,7 +12184,7 @@ vue-router@^3.5.1:
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.5.3.tgz#041048053e336829d05dafacf6a8fb669a2e7999"
   integrity sha512-FUlILrW3DGitS2h+Xaw8aRNvGTwtuaxrRkNSHWTizOfLUie7wuYwezeZ50iflRn8YPV5kxmU2LQuu3nM/b3Zsg==
 
-vue-server-renderer@^2.6.12, vue-server-renderer@^2.6.14:
+vue-server-renderer@^2.6.12:
   version "2.6.14"
   resolved "https://registry.yarnpkg.com/vue-server-renderer/-/vue-server-renderer-2.6.14.tgz#c8bffff152df6b47b858818ef8d524d2fc351654"
   integrity sha512-HifYRa/LW7cKywg9gd4ZtvtRuBlstQBao5ZCWlg40fyB4OPoGfEXAzxb0emSLv4pBDOHYx0UjpqvxpiQFEuoLA==
@@ -12224,7 +12224,7 @@ vue-waiting@^0.0.4:
   resolved "https://registry.yarnpkg.com/vue-waiting/-/vue-waiting-0.0.4.tgz#c425c52199e2ea9f394dae8d4434230e0a0f17a1"
   integrity sha512-CrQwmIxxA3u/faYrz+HyoXwgbNbzC3VLou1zjq1xjxAGc2FNc3qDepDxptQ/aO4xurV5+lv1vj9sPGQIDRT2qg==
 
-vue@^2.6.12, vue@^2.6.14:
+vue@^2.6.12:
   version "2.6.14"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.14.tgz#e51aa5250250d569a3fbad3a8a5a687d6036e235"
   integrity sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ==
