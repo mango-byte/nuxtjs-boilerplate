@@ -3,6 +3,7 @@ import messages from './messages'
 import login from './login'
 import dialog from './dialog'
 import common from './common'
+import vuetify from './vuetify'
 
 export default {
   attributes,
@@ -10,7 +11,8 @@ export default {
     title: 'NuxtJs Boilerplate',
   },
   common,
-  $dialog: dialog,
   login,
   messages,
+  $vuetify: vuetify,
+  $dialog: dialog,
 }

@@ -1,4 +1,12 @@
-module.exports = {
+import type { InitialOptionsTsJest } from 'ts-jest/dist/types'
+
+const config: InitialOptionsTsJest = {
+  extensionsToTreatAsEsm: ['.ts'],
+  globals: {
+    'ts-jest': {
+      useESM: true,
+    },
+  },
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/$1',
     '^~/(.*)$': '<rootDir>/$1',
@@ -8,7 +16,7 @@ module.exports = {
   transform: {
     '^.+\\.ts$': 'ts-jest',
     '^.+\\.js$': 'babel-jest',
-    '.*\\.(vue)$': 'vue-jest',
+    '.*\\.(vue)$': '@vue/vue2-jest',
   },
   collectCoverage: true,
   collectCoverageFrom: [
@@ -16,4 +24,6 @@ module.exports = {
     '<rootDir>/pages/**/*.vue',
   ],
   testEnvironment: 'jsdom',
+  testPathIgnorePatterns: ['<rootDir>/test/e2e'],
 }
+export default config
