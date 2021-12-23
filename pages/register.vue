@@ -85,6 +85,7 @@
 
 <script lang="ts">
 import { Component, mixins } from 'nuxt-property-decorator'
+import type { MetaInfo } from 'vue-meta'
 import ValidatorJs from '~/mixins/validator-js'
 import { ValidatorEntity } from '~/domain/entity'
 import { RegisterEntity } from '~/domain/user/entity'
@@ -93,6 +94,11 @@ import { RegisterEntity } from '~/domain/user/entity'
   name: 'register',
   auth: 'guest',
   layout: 'auth',
+  head(): MetaInfo {
+    return {
+      title: 'Register',
+    }
+  },
 })
 export default class Register extends mixins(ValidatorJs) {
   valid = false

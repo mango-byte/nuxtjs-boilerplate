@@ -112,6 +112,7 @@
 <script lang="ts">
 import { Component, mixins } from 'nuxt-property-decorator'
 import { sleep } from 'vue-axios-http'
+import type { MetaInfo } from 'vue-meta'
 import ValidatorJs from '~/mixins/validator-js'
 import { getErrorMessage, isValidJson, parseLodash } from '~/utils/parser'
 
@@ -121,6 +122,13 @@ import { getErrorMessage, isValidJson, parseLodash } from '~/utils/parser'
   layout: 'auth',
 })
 export default class Login extends mixins(ValidatorJs) {
+  head(): MetaInfo {
+    return {
+      title: this.pageTitle,
+    }
+  }
+
+  pageTitle = 'Login'
   valid = false
   loginForm = { identifier: '', password: '' }
   busy = false
