@@ -1,5 +1,5 @@
 export const storage = {
-  vuex: true,
+  vuex: { namespace: 'storage' },
   localStorage: true,
   cookie: true,
   ignoreExceptions: false,
