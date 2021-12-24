@@ -10,7 +10,7 @@ WORKDIR /usr/src/nuxt-app
 COPY package.json \
   yarn.lock \
   ./
-RUN yarn --pure-lockfile
+RUN yarn --pure-lockfile --no-cache
 
 # Get the DD Room Client code
 COPY . .
