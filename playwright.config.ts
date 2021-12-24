@@ -9,7 +9,7 @@ const config: PlaywrightTestConfig = {
     port,
     timeout: 120 * 5000,
     reuseExistingServer: !CI,
-    command: 'yarn generate:ci && yarn start:ci',
+    command: 'yarn build:ci && yarn start:ci',
   },
   forbidOnly: !!CI,
   retries: CI ? 2 : 1,
