@@ -26,7 +26,8 @@
       "@nuxtjs/vuetify",
       "vuetify-dialogue",
       "@nuxtjs/auth-next",
-      "@chantouchsek/validatorjs"
+      "@chantouchsek/validatorjs",
+      "collect.js"
     ]
   },
   "exclude": ["node_modules", ".nuxt", "dist"]

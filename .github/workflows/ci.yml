@@ -4,11 +4,9 @@ on:
   push:
     branches:
       - main
-      - master
   pull_request:
     branches:
       - main
-      - master
 
 jobs:
   ci:
@@ -17,7 +15,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: [14]
+        node: [16]
 
     steps:
       - name: Checkout 🛎
@@ -43,10 +41,19 @@ jobs:
             ${{ runner.os }}-yarn-
 
       - name: Install dependencies 👨🏻‍💻
-        run: yarn
+        run: yarn --pure-lockfile
 
       - name: Run linter 👀
         run: yarn lint
 
       - name: Run tests 🧪
         run: yarn test
+
+      - name: Install playwright
+        run: npx playwright install
+
+      - name: Install operating system dependencies
+        run: npx playwright install-deps
+
+      - name: Run tests 🧪 👀
+        run: yarn test:e2e
