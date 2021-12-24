@@ -4,20 +4,19 @@ on:
   push:
     branches:
       - main
-      - master
   pull_request:
     branches:
       - main
-      - master
 
 jobs:
   ci:
     runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
 
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: [14]
+        node: [16]
 
     steps:
       - name: Checkout 🛎
@@ -50,3 +49,18 @@ jobs:
 
       - name: Run tests 🧪
         run: yarn test
+
+      - name: Install playwright
+        run: npx playwright install
+
+      - name: Install operating system dependencies
+        run: npx playwright install-deps
+
+      #      - name: Run test
+      #        run: yarn test:compose
+
+      - name: Run e2e test 🧪 👀
+        run: yarn test:e2e
+#      - name: Stop containers
+#        if: always()
+#        run: docker-compose -f "docker-compose.yml" down

@@ -5,6 +5,8 @@ import dialog from './dialog'
 import common from './common'
 import vuetify from './vuetify'
 
+export { attributes, common, login, messages }
+
 export default {
   attributes,
   app: {
