@@ -1,5 +1,7 @@
 # Nuxtjs Boilerplate
 
+[![ci](https://github.com/mango-byte/nuxtjs-boilerplate/actions/workflows/ci.yml/badge.svg)](https://github.com/mango-byte/nuxtjs-boilerplate/actions/workflows/ci.yml)
+
 ## Build Setup
 
 ```bash
