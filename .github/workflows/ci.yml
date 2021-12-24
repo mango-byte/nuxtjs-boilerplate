@@ -11,7 +11,7 @@ on:
 jobs:
   ci:
     runs-on: ${{ matrix.os }}
-    timeout-minutes: 30
+    timeout-minutes: 10
 
     strategy:
       matrix:
@@ -47,20 +47,11 @@ jobs:
       - name: Run linter 👀
         run: yarn lint
 
-      - name: Run tests 🧪
-        run: yarn test
-
       - name: Install playwright
         run: npx playwright install
 
       - name: Install operating system dependencies
         run: npx playwright install-deps
 
-      #      - name: Run test
-      #        run: yarn test:compose
-
-      - name: Run e2e test 🧪 👀
+      - name: Test
         run: yarn test:e2e
-#      - name: Stop containers
-#        if: always()
-#        run: docker-compose -f "docker-compose.yml" down
