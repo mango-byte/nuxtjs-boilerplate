@@ -56,12 +56,11 @@ jobs:
       - name: Install operating system dependencies
         run: npx playwright install-deps
 
-      - name: Run test
-        run: yarn test:compose
+      #      - name: Run test
+      #        run: yarn test:compose
 
       - name: Run e2e test 🧪 👀
         run: yarn test:e2e
-
-      - name: Stop containers
-        if: always()
-        run: docker-compose -f "docker-compose.yml" down
+#      - name: Stop containers
+#        if: always()
+#        run: docker-compose -f "docker-compose.yml" down
