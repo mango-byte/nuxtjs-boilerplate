@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  nuxt-app-e2e:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '8000:8000'
+    volumes:
+      - /usr/src/nuxt-app/node_modules
+      - ./:/usr/src/nuxt-app
+    stdin_open: true
+    tty: true
+    env_file:
+      - .env.docker
