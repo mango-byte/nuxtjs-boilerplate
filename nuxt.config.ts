@@ -3,6 +3,7 @@ import {
   axios,
   build,
   eslint,
+  googleFonts,
   head,
   i18n,
   privateRuntimeConfig,
@@ -13,7 +14,6 @@ import {
   storage,
   vuetify,
   vuetifyDialogue,
-  webfontloader,
   webpackOptimisations,
 } from './config'
 
@@ -27,6 +27,7 @@ export default {
     '@nuxtjs/stylelint-module',
     '@nuxtjs/vuetify',
     'nuxt-webpack-optimisations',
+    '@nuxtjs/google-fonts',
   ],
   modules: [
     'vue-axios-http/nuxt',
@@ -39,13 +40,13 @@ export default {
     '@nuxtjs/universal-storage',
     '@nuxtjs/component-cache',
     'vue-waiting/nuxt',
-    'nuxt-webfontloader',
     'nuxt-vuex-router-sync',
   ],
   auth,
   axios,
   build,
   eslint,
+  googleFonts,
   head,
   i18n,
   privateRuntimeConfig,
@@ -56,6 +57,5 @@ export default {
   storage,
   vuetify,
   vuetifyDialogue,
-  webfontloader,
   webpackOptimisations,
 }
