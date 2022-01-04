@@ -4100,10 +4100,10 @@ collect-v8-coverage@^1.0.0:
   resolved "https://registry.yarnpkg.com/collect-v8-coverage/-/collect-v8-coverage-1.0.1.tgz#cc2c8e94fc18bbdffe64d6534570c8a673b27f59"
   integrity sha512-iBPtljfCNcTKNAto0KEtDfZ3qzjJvqE3aTGZsbhjSBlorqpXJlaWWtPO35D+ZImoC3KWejX64o+yPGxhWSTzfg==
 
-collect.js@^4.29.3:
-  version "4.29.3"
-  resolved "https://registry.yarnpkg.com/collect.js/-/collect.js-4.29.3.tgz#4d8aeb2970d0d12f6bc0923c9a2a172d51ec25f8"
-  integrity sha512-/6idZ7r3B25Q4cForbiHJ7+aqupcgMEtrKRn9D3viCbLw+YuNFjd23HwDH89Y2cU4jlhkwksD80nZFKtNE25Gw==
+collect.js@^4.30.3:
+  version "4.30.3"
+  resolved "https://registry.yarnpkg.com/collect.js/-/collect.js-4.30.3.tgz#8325272f48ad7c87bd3801d288a33d34f1c42921"
+  integrity sha512-u/+RntU9wk+B5dBfaZRZ0PsmjzBEd3rPfpB36A45cnjiufNACzFCjAB7D4MuE8fAaayxJbjLnq9ewQtMBTnPiw==
 
 collection-visit@^1.0.0:
   version "1.0.0"
