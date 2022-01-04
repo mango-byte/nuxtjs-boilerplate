@@ -27,13 +27,11 @@ export default class ValidatorJs extends Vue {
         : lang
       const options = {
         locale,
-        rules,
-        input,
         confirmedReverse: true,
         customMessages: defu(customMessages, messages),
         customAttributes: defu(customAttributes, attributes),
       }
-      const validator = new Validator(options)
+      const validator = new Validator(input, rules, options)
       if (validator.fails()) {
         this.$errors.fill(validator.errors.all())
         return false
