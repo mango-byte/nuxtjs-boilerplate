@@ -975,10 +975,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@chantouchsek/validatorjs@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@chantouchsek/validatorjs/-/validatorjs-1.0.1.tgz#840de8971061519f6bd00c929c5d32dc14d64eb1"
-  integrity sha512-+9o8fbZeGOAZSFFtpfEEvWZUwxk3j1iEExd70TnGybU72o/mF4BFyQJVOeBnTZKmWmWp3tyJjfVjRsJu1vq+hQ==
+"@chantouchsek/validatorjs@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@chantouchsek/validatorjs/-/validatorjs-1.0.2.tgz#1479b03f825fe62384e4ff26efe0c07faa380eac"
+  integrity sha512-2xFezs/AAzotJM64lUhN1c1aCfXEFop/Ix6MTGdwCisGuqxBghcQmqeHnqf4fgyZ5ZNs0xWz6NzmNpbygkBRwg==
 
 "@commitlint/cli@^15.0.0":
   version "15.0.0"
