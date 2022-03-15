@@ -44,7 +44,7 @@
     "nuxt-vuex-router-sync": "^0.0.3",
     "vue-axios-http": "^1.2.3",
     "vue-waiting": "^0.0.4",
-    "vuetify": "^2.6.2",
+    "vuetify": "^2.6.4",
     "vuetify-dialogue": "^0.0.7"
   },
   "devDependencies": {
