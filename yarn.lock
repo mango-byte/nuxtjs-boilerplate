@@ -9302,18 +9302,15 @@ nuxt-vuex-router-sync@^0.0.3:
   dependencies:
     vuex-router-sync "^5.0.0"
 
-nuxt-webpack-optimisations@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/nuxt-webpack-optimisations/-/nuxt-webpack-optimisations-2.1.2.tgz#74b2ae5f9de70dce2e4c185254b500f38fced55a"
-  integrity sha512-ap60FsP4AZBVxbgvKIvFde3N9nylxtrLhULX5MkSUl0WwL0/EXpNsBq/NxBEpQkWtCpcHtd/zf8tXrkA0M6wrw==
+nuxt-webpack-optimisations@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/nuxt-webpack-optimisations/-/nuxt-webpack-optimisations-2.2.0.tgz#ec823f9998324dde56957ef6dbf22f5fca592175"
+  integrity sha512-YIW3MbJ3c7mW93aEXgrMF4m5D86g1rE7oSMPOLHjKQ8YbQ+zW+QFbTKsAHziCE+HzW5/DlFNTAEoq3/K4L8SZA==
   dependencies:
     "@nuxt/kit" "npm:@nuxt/kit-edge@latest"
     consola "^2.15.3"
-    defu "^5.0.0"
     esbuild-loader "^2.18.0"
-    rimraf "^3.0.2"
     speed-measure-webpack-plugin "^1.5.0"
-    upath "^2.0.1"
 
 nuxt@^2.15.8:
   version "2.15.8"
