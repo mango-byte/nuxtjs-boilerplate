@@ -42,7 +42,7 @@
     "nuxt-axios-cancel": "^0.0.2",
     "nuxt-property-decorator": "^2.9.1",
     "nuxt-vuex-router-sync": "^0.0.3",
-    "vue-axios-http": "^1.2.3",
+    "vue-axios-http": "^3.0.1",
     "vue-waiting": "^0.0.4",
     "vuetify": "^2.6.4",
     "vuetify-dialogue": "^0.0.7"
