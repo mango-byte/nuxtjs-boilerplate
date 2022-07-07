@@ -13103,10 +13103,10 @@ vue-template-es2015-compiler@^1.6.0, vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
-vue-waiting@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/vue-waiting/-/vue-waiting-0.0.4.tgz#c425c52199e2ea9f394dae8d4434230e0a0f17a1"
-  integrity sha512-CrQwmIxxA3u/faYrz+HyoXwgbNbzC3VLou1zjq1xjxAGc2FNc3qDepDxptQ/aO4xurV5+lv1vj9sPGQIDRT2qg==
+vue-waiting@^0.0.10:
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/vue-waiting/-/vue-waiting-0.0.10.tgz#73d90831e2b4a72d059f246a15e0325a140c4799"
+  integrity sha512-y3zLozj9AR1xnOk1+WIVni3SqoJFNjnLgpkYlLbizzlmNE7oXJPfmYjLEySCix0OzOWOSc/i9LnniJBP4ly+Yg==
 
 vue@^2.6.12:
   version "2.6.14"
