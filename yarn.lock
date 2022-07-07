@@ -1249,10 +1249,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@chantouchsek/validatorjs@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@chantouchsek/validatorjs/-/validatorjs-1.0.2.tgz#1479b03f825fe62384e4ff26efe0c07faa380eac"
-  integrity sha512-2xFezs/AAzotJM64lUhN1c1aCfXEFop/Ix6MTGdwCisGuqxBghcQmqeHnqf4fgyZ5ZNs0xWz6NzmNpbygkBRwg==
+"@chantouchsek/validatorjs@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@chantouchsek/validatorjs/-/validatorjs-1.1.1.tgz#58f85ae0d0db9765d55452edd0c9050e70be10e2"
+  integrity sha512-DUbTjkiKk//k55KspqhmcxCIx70cZveGS2IEwWH6/L5s/1KCY9sliQPtt0JrI0d+D2d2YWKSa4rwCC/YuRvIVA==
 
 "@commitlint/cli@^17.0.2":
   version "17.0.2"
@@ -2308,13 +2308,13 @@
     mustache "^2.3.0"
     stack-trace "0.0.10"
 
-"@playwright/test@^1.22.2":
-  version "1.22.2"
-  resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.22.2.tgz#b848f25f8918140c2d0bae8e9227a40198f2dd4a"
-  integrity sha512-cCl96BEBGPtptFz7C2FOSN3PrTnJ3rPpENe+gYCMx4GNNDlN4tmo2D89y13feGKTMMAIVrXfSQ/UmaQKLy1XLA==
+"@playwright/test@^1.23.1":
+  version "1.23.1"
+  resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.23.1.tgz#209cceb81c579d1cd2835f15c2bb3a8345103d60"
+  integrity sha512-dKplLPSYPZgnsBk1xxOophhpx3ZVg8DveoNJgLPe096lDCfmaIIreLsYF+4hqzy3PG61IP+aEnG5VAOjC3bhbA==
   dependencies:
     "@types/node" "*"
-    playwright-core "1.22.2"
+    playwright-core "1.23.1"
 
 "@polka/url@^1.0.0-next.20":
   version "1.0.0-next.21"
@@ -9913,10 +9913,10 @@ pkg-types@^0.3.2:
     mlly "^0.3.6"
     pathe "^0.2.0"
 
-playwright-core@1.22.2:
-  version "1.22.2"
-  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.22.2.tgz#ed2963d79d71c2a18d5a6fd25b60b9f0a344661a"
-  integrity sha512-w/hc/Ld0RM4pmsNeE6aL/fPNWw8BWit2tg+TfqJ3+p59c6s3B6C8mXvXrIPmfQEobkcFDc+4KirNzOQ+uBSP1Q==
+playwright-core@1.23.1:
+  version "1.23.1"
+  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.23.1.tgz#af02bd7568af1017e477433b1b003ba84e1eb312"
+  integrity sha512-9CXsE0gawph4KXl6oUaa0ehHRySZjHvly4TybcBXDvzK3N3o6L/eZ8Q6iVWUiMn0LLS5bRFxo1qEtOETlYJxjw==
 
 pluralize@^8.0.0:
   version "8.0.0"
@@ -13103,10 +13103,10 @@ vue-template-es2015-compiler@^1.6.0, vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
-vue-waiting@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/vue-waiting/-/vue-waiting-0.0.4.tgz#c425c52199e2ea9f394dae8d4434230e0a0f17a1"
-  integrity sha512-CrQwmIxxA3u/faYrz+HyoXwgbNbzC3VLou1zjq1xjxAGc2FNc3qDepDxptQ/aO4xurV5+lv1vj9sPGQIDRT2qg==
+vue-waiting@^0.0.10:
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/vue-waiting/-/vue-waiting-0.0.10.tgz#73d90831e2b4a72d059f246a15e0325a140c4799"
+  integrity sha512-y3zLozj9AR1xnOk1+WIVni3SqoJFNjnLgpkYlLbizzlmNE7oXJPfmYjLEySCix0OzOWOSc/i9LnniJBP4ly+Yg==
 
 vue@^2.6.12:
   version "2.6.14"
