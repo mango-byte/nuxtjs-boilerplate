@@ -2301,13 +2301,13 @@
     mustache "^2.3.0"
     stack-trace "0.0.10"
 
-"@playwright/test@^1.22.2":
-  version "1.22.2"
-  resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.22.2.tgz#b848f25f8918140c2d0bae8e9227a40198f2dd4a"
-  integrity sha512-cCl96BEBGPtptFz7C2FOSN3PrTnJ3rPpENe+gYCMx4GNNDlN4tmo2D89y13feGKTMMAIVrXfSQ/UmaQKLy1XLA==
+"@playwright/test@^1.23.3":
+  version "1.23.3"
+  resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.23.3.tgz#7f9dd982f2b1a5edbe9e58fedf7bb2691d6309b4"
+  integrity sha512-kR4vo2UGHC84DGqE6EwvAeaehj3xCAK6LoC1P1eu6ZGdC79rlqRKf8cFDx6q6c9T8MQSL1O9eOlup0BpwqNF0w==
   dependencies:
     "@types/node" "*"
-    playwright-core "1.22.2"
+    playwright-core "1.23.3"
 
 "@polka/url@^1.0.0-next.20":
   version "1.0.0-next.21"
@@ -9915,10 +9915,10 @@ pkg-types@^0.3.2:
     mlly "^0.3.6"
     pathe "^0.2.0"
 
-playwright-core@1.22.2:
-  version "1.22.2"
-  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.22.2.tgz#ed2963d79d71c2a18d5a6fd25b60b9f0a344661a"
-  integrity sha512-w/hc/Ld0RM4pmsNeE6aL/fPNWw8BWit2tg+TfqJ3+p59c6s3B6C8mXvXrIPmfQEobkcFDc+4KirNzOQ+uBSP1Q==
+playwright-core@1.23.3:
+  version "1.23.3"
+  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.23.3.tgz#f27ad80fbf0ba9b53d142d94f052b010eaa0527b"
+  integrity sha512-x35yzsXDyo0BIXYimLnUFNyb42c//NadUNH6IPGOteZm96oTGA1kn4Hq6qJTI1/f9wEc1F9O1DsznXIgXMil7A==
 
 pluralize@^8.0.0:
   version "8.0.0"
